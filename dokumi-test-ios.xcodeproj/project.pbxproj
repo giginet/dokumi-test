@@ -40,6 +40,7 @@
 		C74A7AD31B4DF23300322E53 /* dokumi-test-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dokumi-test-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C74A7AD81B4DF23300322E53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C74A7AD91B4DF23300322E53 /* dokumi_test_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dokumi_test_iosTests.m; sourceTree = "<group>"; };
+		C74A7AE31B4DF4BB00322E53 /* Abcd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Abcd.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +90,7 @@
 				C74A7ACA1B4DF23200322E53 /* Images.xcassets */,
 				C74A7ACC1B4DF23200322E53 /* LaunchScreen.xib */,
 				C74A7ABD1B4DF23200322E53 /* Supporting Files */,
+				C74A7AE31B4DF4BB00322E53 /* Abcd.h */,
 			);
 			path = "dokumi-test-ios";
 			sourceTree = "<group>";
@@ -418,6 +420,7 @@
 				C74A7ADF1B4DF23300322E53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C74A7AE01B4DF23300322E53 /* Build configuration list for PBXNativeTarget "dokumi-test-iosTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +429,7 @@
 				C74A7AE21B4DF23300322E53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

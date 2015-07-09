@@ -12,6 +12,10 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        // bugs
+        impossibleCast();
+        vaFormatStringIllegal();
     }
 
 
@@ -35,5 +39,14 @@ public class MainActivity extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    void impossibleCast() {
+        final Object doubleValue = Double.valueOf(1.0);
+        final Long longValue = (Long) doubleValue;
+    }
+
+    void vaFormatStringIllegal() {
+        final String text = String.format("%>s  %s", "10", "9");
     }
 }

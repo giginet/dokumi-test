@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface dokumi_test_iosTests : XCTestCase
+@interface dokumi_test_iosSuperTests : XCTestCase
 
 @end
 
-@implementation dokumi_test_iosTests
+@implementation dokumi_test_iosSuperTests
 
 - (void)setUp {
     [super setUp];
@@ -23,6 +23,10 @@
 - (void)tearDown {
     // Put teardown code here. This method is called after the invocation of each test method in the class.
     [super tearDown];
+}
+
+- (void)testAnotherExample {
+    XCTAssert(NO, @"FAIL"); // failing test
 }
 
 - (void)testExample {
